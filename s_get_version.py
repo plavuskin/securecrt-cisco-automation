@@ -6,7 +6,7 @@ import sys
 from ftplib import FTP
 # A great module for parsing Cisco configs.
 # Examples: https://github.com/mpenning/ciscoconfparse/tree/master/examples
-from ciscoconfparse import CiscoConfParse
+#from ciscoconfparse import CiscoConfParse
 
 # Avoids errors in IDE's that can't detect the crt variable:
 global crt

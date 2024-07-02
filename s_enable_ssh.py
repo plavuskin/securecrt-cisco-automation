@@ -10,7 +10,7 @@ global crt
 
 # Adds script directory to PYTHONPATH,
 # so we can import local modules when running common_tasks from SecureCRT
-script_dir = None
+script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
 if 'crt' in globals():
     script_dir, script_name = os.path.split(crt.ScriptFullName)
 if script_dir not in sys.path:
